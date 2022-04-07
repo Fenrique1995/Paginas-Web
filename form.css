@@ -5,3 +5,24 @@ body{
     align-content: center;
     align-items: center;
 }
+h1{
+    border-style: double;
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+}
+#form{
+    border-style: double;
+    align-items: center;
+    padding: 50px;
+}
+#second{
+    border-style: double;
+    margin: 50px;
+    padding: 50px;    
+}
+ul, li{
+    margin: 10px;
+}
