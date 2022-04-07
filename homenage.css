@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://media.istockphoto.com/photos/full-frame-image-of-england-flag-picture-id479199262?k=20&m=479199262&s=612x612&w=0&h=hPuWGJ2NhzP2BWNTXswLNoz-hIjqaboSY5POJntc9Js=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+#image1{
+    width: 25%;          
+}
+#minisinopsis{
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: black;
+}
+p{
+    background-color: aliceblue;
+    border-style: solid;
+    border-color: black;
+    border-width:  thick;
+}       
+footer{
+    height: 50%;
+    background-color: rgb(3, 3, 116);
+    text-align:center;
+    color: red;
+}
+a{
+    color:brown;
+}
