@@ -33,7 +33,11 @@ h2{
     padding: 50px;
     z-index: 3;
     display: flex;
-    text-align: center;   
+     
+    flex-direction: column;
+    justify-content: center; 
+    align-content: center;
+    align-items: center; 
 }
 #image1{
     filter: opacity(0.6);
@@ -46,7 +50,14 @@ ul, li{
 }
 #submit{
     display: flex;
-    text-align: center;
+    
     margin: 20px;
     background-color: aquamarine;
 }
+.box{
+    padding: 0px 50px 25px 0px;
+}
+.box::placeholder{
+    color: brown;
+}
+
