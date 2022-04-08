@@ -4,9 +4,13 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
+    z-index: 1;
+    background-color: rgb(60, 88, 179);
 }
 h1{
-    border-style: double;
+    border-style: groove;
+    border-color: darkgoldenrod;
+    border-width: 5px;
     text-align: center;
     padding: 15px;
 }
@@ -15,14 +19,34 @@ h2{
 }
 #form{
     border-style: double;
+    border-color: darkgoldenrod;
+    border-width: 5px;
     align-items: center;
     padding: 50px;
+    z-index: 3;
 }
 #second{
     border-style: double;
+    border-color: darkgoldenrod;
+    border-width: 5px;
     margin: 50px;
-    padding: 50px;    
+    padding: 50px;
+    z-index: 3;
+    display: flex;
+    text-align: center;   
+}
+#image1{
+    filter: opacity(0.6);
+    mix-blend-mode: multiply;
+    position: fixed;
+    z-index:  2;
 }
 ul, li{
     margin: 10px;
+}
+#submit{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+    background-color: aquamarine;
 }
