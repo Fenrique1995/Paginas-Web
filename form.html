@@ -16,15 +16,27 @@
         <h2>Questions:</h2>
     <ul>
         <li>How old are you?</li>
-        <input class="box" type="number" placeholder="your age">
+        <input class="box" type="text" placeholder="your age" required>
         <li>What is your name?</li>
-        <input class="box" type="text" placeholder="your name">
+        <input class="box" type="text" placeholder="your name" required>
         <li>What is your last name?</li>
-        <input class="box" type="text" placeholder="your last name">
+        <input class="box" type="text" placeholder="your last name" required>
         <li>Enter your email, please</li>
-        <input class="box" type="email" placeholder="your email">
-        <li>Reason for your registration</li> 
-        <input class="box" type="text" placeholder="//Insert text...">   
+        <input class="box" type="email" placeholder="your email" required>
+        <li>Genre</li> 
+        <input type="checkbox" id="genre1">
+        <label for="genre1">Masculine</label>
+        <input type="checkbox" id="genre2">
+        <label for="genre2">Femenine</label>
+        <li id="category">Your category</li>
+        <select name="category">
+            <option>60kg</option>
+            <option>70kg</option>
+            <option>80kg</option>
+            <option>90kg</option>
+            <option>mas de 100kg</option>
+            <option>Opens</option>
+        </select>
         <button id="submit" value="Submit">submit</button>
     </ul> 
            
