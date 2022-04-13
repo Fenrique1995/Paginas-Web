@@ -6,6 +6,7 @@
     <title>Registration Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href='form.css' rel='stylesheet' type='text/css'>
+    <script src="form.js"></script>
 </head>
 <body>
     <h1>Registration</h1>   
@@ -16,7 +17,7 @@
         <h2>Questions:</h2>
     <ul>
         <li>How old are you?</li>
-        <input class="box" type="text" placeholder="your age" required>
+        <input class="box" id="age" type="text" placeholder="your age" required>
         <li>What is your name?</li>
         <input class="box" type="text" placeholder="your name" required>
         <li>What is your last name?</li>
@@ -37,7 +38,7 @@
             <option>mas de 100kg</option>
             <option>Opens</option>
         </select>
-        <button id="submit" value="Submit">submit</button>
+        <button id="submit" value="Submit" onclick="verify()">submit</button>
     </ul> 
            
     </div>
